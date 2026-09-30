@@ -3,7 +3,6 @@ import { Outlet, useLocation } from "react-router-dom"
 import NavBar from "./NavBar"
 import Footer from "./Footer"
 import Preloader from "./Preloader"
-import Cursor from "./Cursor"
 import ScrollProgress from "./ScrollProgress"
 import ScrollCup from "./ScrollCup"
 import { gsap, useGSAP, reducedMotion } from "../lib/gsap"
@@ -16,6 +15,24 @@ function Layout() {
   const firstRender = useRef(true)
 
   useEffect(() => startSmoothScroll(), [])
+
+  // Pointer hides while the page scrolls and comes back as soon as the mouse actually moves.
+  useEffect(() => {
+    const root = document.documentElement
+    const hide = () => root.classList.add("is-scrolling")
+    const show = (e) => {
+      if (e.movementX || e.movementY) root.classList.remove("is-scrolling")
+    }
+    window.addEventListener("wheel", hide, { passive: true })
+    window.addEventListener("scroll", hide, { passive: true })
+    window.addEventListener("mousemove", show)
+    return () => {
+      window.removeEventListener("wheel", hide)
+      window.removeEventListener("scroll", hide)
+      window.removeEventListener("mousemove", show)
+      root.classList.remove("is-scrolling")
+    }
+  }, [])
 
   useReveal(page, [pathname])
 
@@ -37,7 +54,6 @@ function Layout() {
   return (
     <div className="overflow-x-hidden">
       <Preloader />
-      <Cursor />
       <ScrollProgress />
       <ScrollCup />
       <NavBar />
