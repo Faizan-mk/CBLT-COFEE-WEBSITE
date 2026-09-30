@@ -128,16 +128,10 @@ html.lenis body {
   85%, 100% { transform: translateX(120%); }
 }
 
-/* Native pointer hidden only while the custom cursor is running; text fields keep the I-beam. */
-html.custom-cursor,
-html.custom-cursor * {
+/* Pointer hidden while scrolling; Layout clears the class on the next real mouse move. */
+html.is-scrolling,
+html.is-scrolling * {
   cursor: none !important;
-}
-
-html.custom-cursor input,
-html.custom-cursor textarea,
-html.custom-cursor [contenteditable="true"] {
-  cursor: text !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
