@@ -17,7 +17,7 @@ const stops = [
   { at: 1, x: 0.5, y: 1, r: 0, s: 1.1 },
 ]
 
-const trailBeans = [0.25, 0.45, 0.65, 0.85, 1.05]
+const trailBeans = [0.5, 0.75, 1, 1.25, 1.5]
 
 // A big takeaway cup that travels the whole page from top to bottom as you scroll:
 // it weaves side to side, spins in 3D, tips with scroll speed and drags a tail of beans.
@@ -42,7 +42,7 @@ function ScrollCup() {
 
       const tl = gsap.timeline({
         defaults: { ease: "sine.inOut" },
-        scrollTrigger: { start: 0, end: "max", scrub: 1.5, invalidateOnRefresh: true },
+        scrollTrigger: { start: 0, end: "max", scrub: 3, invalidateOnRefresh: true },
       })
       stops.slice(1).forEach((s, i) => {
         const p = stops[i]
@@ -53,27 +53,27 @@ function ScrollCup() {
           p.at
         )
       })
-      // Three full turns in 3D over the page, ending label-forward.
-      tl.to(cup, { rotationY: 1080, ease: "none", duration: 1 }, 0)
+      // One slow full turn in 3D over the page, ending label-forward.
+      tl.to(cup, { rotationY: 360, ease: "none", duration: 1 }, 0)
 
       // Scroll speed tips and stretches the cup as if it's being carried at a run.
-      const tip = gsap.quickTo(tilt, "rotation", { duration: 0.6, ease: "power3" })
-      const stretch = gsap.quickTo(tilt, "scaleY", { duration: 0.4, ease: "power3" })
+      const tip = gsap.quickTo(tilt, "rotation", { duration: 1.2, ease: "power2.out" })
+      const stretch = gsap.quickTo(tilt, "scaleY", { duration: 1, ease: "power2.out" })
       let settle
       ScrollTrigger.create({
         start: 0,
         end: "max",
         onUpdate: (self) => {
           const v = self.getVelocity()
-          tip(gsap.utils.clamp(-25, 25, v / -100))
-          stretch(1 + gsap.utils.clamp(0, 0.1, Math.abs(v) / 25000))
+          tip(gsap.utils.clamp(-12, 12, v / -200))
+          stretch(1 + gsap.utils.clamp(0, 0.05, Math.abs(v) / 40000))
           settle?.kill()
-          settle = gsap.delayedCall(0.15, () => {
+          settle = gsap.delayedCall(0.3, () => {
             tip(0)
             stretch(1)
           })
         },
-        onLeave: () => gsap.fromTo(tilt, { scaleY: 0.85 }, { scaleY: 1, duration: 1, ease: "elastic.out(1,0.35)" }),
+        onLeave: () => gsap.fromTo(tilt, { scaleY: 0.94 }, { scaleY: 1, duration: 1.4, ease: "elastic.out(1,0.5)" }),
       })
 
       // Beans trail behind the cup, each one lagging a little more than the last.
@@ -123,7 +123,7 @@ function ScrollCup() {
         </div>
       ))}
 
-      <div data-rider className="absolute top-0 left-0 w-[120px] sm:w-[170px] lg:w-[clamp(200px,17vw,280px)]" style={{ perspective: 900 }}>
+      <div data-rider className="absolute top-0 left-0 will-change-transform w-[120px] sm:w-[170px] lg:w-[clamp(200px,17vw,280px)]" style={{ perspective: 900 }}>
         <div data-bob>
           <div data-tilt style={{ transformOrigin: "50% 100%" }}>
             <svg data-steam viewBox="0 0 40 24" className="absolute -top-[18%] left-1/2 -translate-x-1/2 w-1/2" aria-hidden="true">

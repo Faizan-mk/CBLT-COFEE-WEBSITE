@@ -101,7 +101,7 @@ function Hero() {
       // Scroll = the camera pulls back and the scene fades to black.
       gsap
         .timeline({
-          scrollTrigger: { trigger: root.current, start: "top top", end: "bottom top", scrub: true },
+          scrollTrigger: { trigger: root.current, start: "top top", end: "bottom top", scrub: 0.8 },
         })
         .to(q("[data-bg]"), { scale: 1.35, yPercent: 12, ease: "none" }, 0)
         .to(q("[data-content]"), { yPercent: -35, rotateX: 18, transformPerspective: 1200, opacity: 0, ease: "none" }, 0)

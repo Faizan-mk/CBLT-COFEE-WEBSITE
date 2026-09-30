@@ -6,7 +6,7 @@ let paused = false
 
 export function startSmoothScroll() {
   if (lenis || reducedMotion()) return () => {}
-  lenis = new Lenis({ duration: 1.15, smoothWheel: true })
+  lenis = new Lenis({ lerp: 0.07, wheelMultiplier: 0.9, smoothWheel: true })
   if (paused) lenis.stop()
   lenis.on("scroll", ScrollTrigger.update)
   const tick = (time) => lenis?.raf(time * 1000)

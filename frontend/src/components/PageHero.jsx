@@ -47,7 +47,7 @@ function PageHero({ title, subtitle, children }) {
 
       // Scroll: background drifts slower than the page, title lifts away.
       gsap
-        .timeline({ scrollTrigger: { trigger: root.current, start: "top top", end: "bottom top", scrub: true } })
+        .timeline({ scrollTrigger: { trigger: root.current, start: "top top", end: "bottom top", scrub: 0.8 } })
         .to(q("[data-bg]"), { yPercent: 20, scale: 1.25, ease: "none" }, 0)
         .to(q("[data-inner]"), { yPercent: -30, opacity: 0.2, ease: "none" }, 0)
     },

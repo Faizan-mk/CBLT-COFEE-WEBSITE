@@ -78,7 +78,7 @@ export function useReveal(scope, deps = []) {
           {
             yPercent: speed * 100,
             ease: "none",
-            scrollTrigger: { trigger: el.parentElement, scrub: true },
+            scrollTrigger: { trigger: el.parentElement, scrub: 0.8 },
           }
         )
       })
