@@ -9,11 +9,10 @@ function Discover() {
           Discover the best coffee
         </h2>
         <p className="text-[#707070] text-base md:text-lg leading-loose mb-8">
-          Bean Scene is a coffee shop that provides you with quality coffee that
-          helps boost your productivity and helps build your mood. Having a cup
-          of coffee is good, but having a cup of real coffee is greater. There
-          is no doubt that you will enjoy this coffee more than others you have
-          ever tasted.
+          Herbert B. Hyman started The Coffee Bean &amp; Tea Leaf in 1963, with
+          the commitment to serve the perfect cup. Now, over 50 years later, the
+          company has fulfilled its promise by becoming one of the world’s
+          largest privately-owned coffee and tea companies.
         </p>
         <Button to="/about">Learn More</Button>
       </div>

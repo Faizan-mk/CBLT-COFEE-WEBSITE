@@ -11,7 +11,7 @@ function AuthCard({ title, subtitle, children, footerText, footerLink, footerLab
           to="/"
           className="font-script text-[#603809] text-4xl block text-center mb-6"
         >
-          Bean Scene
+          Coffee Bean
         </Link>
         <h1 className="text-[#603809] text-2xl md:text-3xl font-bold text-center mb-1">
           {title}

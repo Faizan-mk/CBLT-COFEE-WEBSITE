@@ -55,10 +55,10 @@ function Newsletter() {
       />
       <div className="relative max-w-3xl mx-auto px-6 md:px-10 py-16 md:py-24 text-center" data-reveal="scale">
         <h2 className="text-white text-3xl md:text-5xl font-bold mb-4">
-          Subscribe to get the Latest News
+          Subscribe to our newsletter
         </h2>
         <p className="text-white/85 text-base md:text-lg mb-10">
-          Don't miss out on our latest news, updates, tips and special offers
+          Be the first to hear about new drinks, seasonal favourites and store openings
         </p>
         {subscribed ? (
           <div className="max-w-xl mx-auto bg-[#fff9f1] border border-[#f9c06a]/40 rounded-[8px] p-8">

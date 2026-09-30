@@ -1,23 +1,27 @@
 import { useState } from "react"
 import PageHero from "../components/PageHero"
 import Button from "../components/Button"
+import SectionTitle from "../components/SectionTitle"
 import { supabase } from "../lib/supabase"
+import { contact } from "../data/contact"
+import { stores, storeCities, openingHours, directionsUrl } from "../data/stores"
 
 const contactInfo = [
   {
     title: "Visit Us",
-    lines: [
-      "Akshya Nagar 1st Block 1st Cross,",
-      "Rammurthy nagar, Bangalore-560016",
-    ],
+    lines: [`${stores.length} stores across Pakistan`, `${storeCities.join(", ")}`],
   },
   {
     title: "Call Us",
-    lines: ["+1 202-918-2132", "Mon–Sun: 8:00 AM – 10:00 PM"],
+    lines: [contact.phone, "Feedback & queries"],
   },
   {
     title: "Email Us",
-    lines: ["beanscene@mail.com", "support@beanscene.com"],
+    lines: [contact.email, contact.website],
+  },
+  {
+    title: "Follow Us",
+    lines: ["Facebook: CoffeeBeanPakistan", "Instagram: @coffeebeanpakistan"],
   },
 ]
 
@@ -29,6 +33,7 @@ function Contact() {
     message: "",
   })
   const [sent, setSent] = useState(false)
+  const [city, setCity] = useState(storeCities[0])
   const [error, setError] = useState("")
   const [busy, setBusy] = useState(false)
 
@@ -62,7 +67,7 @@ function Contact() {
     <>
       <PageHero
         title="Contact Us"
-        subtitle="Have a question, feedback, or just want to say hello? We'd love to hear from you."
+        subtitle="At The Coffee Bean & Tea Leaf, we care about what you have to say."
       />
 
       <section className="max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-24 grid lg:grid-cols-2 gap-12">
@@ -71,8 +76,8 @@ function Contact() {
             Get in touch
           </h2>
           <p className="text-[#707070] text-base md:text-lg leading-loose mb-10">
-            We are giving you a one time opportunity to experience a better life
-            with coffee. Reach out and let's talk.
+            Simply drop us a message if you have any feedback or query, and we
+            will get back to you as soon as possible.
           </p>
           <div className="grid sm:grid-cols-2 gap-6">
             {contactInfo.map((info) => (
@@ -149,6 +154,66 @@ function Contact() {
               </Button>
             </form>
           )}
+        </div>
+      </section>
+
+      <section className="max-w-7xl mx-auto px-6 md:px-10 pb-16 md:pb-24">
+        <SectionTitle title="Our Stores" subtitle="Visit the outlet near you" />
+        <div className="flex flex-wrap justify-center gap-4 mb-14">
+          {storeCities.map((c) => (
+            <button
+              key={c}
+              onClick={() => setCity(c)}
+              className={`px-6 py-3 rounded-full font-bold text-sm transition-colors ${
+                city === c
+                  ? "bg-[#f9c06a] text-[#1e1e1e] shadow-[0px_6px_12px_0px_rgba(249,192,106,0.35)]"
+                  : "bg-[#fff9f1] border border-[#f9c06a]/40 text-[#603809] hover:bg-[#ffeed8]"
+              }`}
+            >
+              {c}
+            </button>
+          ))}
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {stores
+            .filter((s) => s.city === city)
+            .map((s) => (
+              <div
+                key={s.id}
+                className="bg-[#fff9f1] border border-[#f9c06a]/40 rounded-[16px] p-6 flex flex-col"
+              >
+                <h3 className="text-[#603809] text-lg font-bold mb-2">{s.name}</h3>
+                {s.address && s.address !== s.name && (
+                  <p className="text-[#707070] text-sm leading-relaxed">{s.address}</p>
+                )}
+                {s.phone && (
+                  <a
+                    href={`tel:${s.phone.replace(/[^\d+]/g, "")}`}
+                    className="text-[#707070] text-sm leading-relaxed hover:text-[#603809]"
+                  >
+                    {s.phone}
+                  </a>
+                )}
+                <div className="mt-4 pt-4 border-t border-[#f9c06a]/40 space-y-1 mb-4">
+                  {openingHours(s.hours).map((h) => (
+                    <p key={h.days} className="flex justify-between gap-4 text-sm">
+                      <span className="text-[#707070]">{h.days}</span>
+                      <span className="text-[#1e1e1e] font-bold">{h.time}</span>
+                    </p>
+                  ))}
+                </div>
+                {s.lat && (
+                  <a
+                    href={directionsUrl(s)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-auto text-[#603809] font-bold text-sm underline underline-offset-4 hover:text-[#f9c06a]"
+                  >
+                    Get Directions
+                  </a>
+                )}
+              </div>
+            ))}
         </div>
       </section>
     </>

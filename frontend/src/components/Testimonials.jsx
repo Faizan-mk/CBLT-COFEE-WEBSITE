@@ -1,43 +1,56 @@
 import { useRef } from "react"
-import { imgCtaBg, imgAvatar } from "../assets/images"
+import { imgCtaBg } from "../assets/images"
 import { gsap, useGSAP, reducedMotion } from "../lib/gsap"
+import ayesha from "../assets/images/testimonials/ayesha.jpg"
+import hamza from "../assets/images/testimonials/hamza.jpg"
+import zainab from "../assets/images/testimonials/zainab.jpg"
+import bilal from "../assets/images/testimonials/bilal.jpg"
+import mahnoor from "../assets/images/testimonials/mahnoor.jpg"
+import usman from "../assets/images/testimonials/usman.jpg"
 
+// Sample reviews - swap in real customer feedback before going live.
 const testimonials = [
   {
     quote:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    name: "Jonny Thomas",
-    role: "Project Manager",
+      "The Original Vanilla Ice Blended is my weakness. Thick, creamy and exactly the same every single time. Summer afternoons in Islamabad just aren't complete without one.",
+    name: "Ayesha Khan",
+    role: "F-6, Islamabad",
+    img: ayesha,
   },
   {
     quote:
-      "The cappuccino here is honestly the best I've ever tasted. The milk is silky, the espresso is bold, and the staff always greet you with a smile. Bean Scene is now part of my daily routine.",
-    name: "Sarah Mitchell",
-    role: "Product Designer",
+      "I start every workday with a Cappuccino here. Bold espresso, silky foam and a calm corner to open my laptop. The staff remember my order, which says a lot.",
+    name: "Hamza Siddiqui",
+    role: "Gulberg, Lahore",
+    img: hamza,
   },
   {
     quote:
-      "I love how every cup feels freshly made with real care. The iced latte on a warm afternoon is unbeatable. It's my go-to spot to work, catch up with friends, or simply enjoy a quiet moment.",
-    name: "David Kim",
-    role: "Software Engineer",
+      "The Chai Tea Latte is the perfect mix of spice and sweetness. Pair it with a slice of Red Velvet Cake and you have my favourite evening plan with friends.",
+    name: "Zainab Ali",
+    role: "DHA Phase 6, Karachi",
+    img: zainab,
   },
   {
     quote:
-      "Ordering online was quick and my coffee arrived hot and perfectly made. The delivery was fast and the packaging kept everything fresh. Highly recommended for anyone who wants great coffee at home.",
-    name: "Emily Carter",
-    role: "Marketing Manager",
+      "Came in for coffee and stayed for the LA Club Sandwich. Generous, fresh and served quickly. The Caramel Macchiato afterwards was the perfect finish.",
+    name: "Bilal Ahmed",
+    role: "Packages Mall, Lahore",
+    img: bilal,
   },
   {
     quote:
-      "I've been to coffee shops all over the city and nothing matches the warmth and consistency of Bean Scene. Their supreme beans really do make a difference in every single cup.",
-    name: "Michael Brown",
-    role: "Entrepreneur",
+      "On cold nights nothing beats the Hot Double Chocolate with marshmallows. The café is cosy, the music is soft, and it's open late, which is a big plus.",
+    name: "Mahnoor Raza",
+    role: "Bahria Town, Rawalpindi",
+    img: mahnoor,
   },
   {
     quote:
-      "The best part of my morning commute is stopping at Bean Scene. Friendly baristas, cozy atmosphere, and the macchiato is absolutely perfect every single time.",
-    name: "Priya Sharma",
-    role: "Architect",
+      "Flying out of Karachi at 3am and they were still serving a proper Americano. Consistent quality even at the airport. My pre-flight ritual now.",
+    name: "Usman Tariq",
+    role: "Jinnah Airport, Karachi",
+    img: usman,
   },
 ]
 
@@ -128,10 +141,10 @@ function Testimonials() {
       <div className="relative max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-24">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <h2 className="text-white text-3xl md:text-5xl font-bold mb-4">
-            Our coffee perfection feedback
+            What our customers say
           </h2>
           <p className="text-white/85 text-base md:text-lg">
-            Our customers has amazing things to say about us
+            At The Coffee Bean &amp; Tea Leaf, we care about what you have to say
           </p>
         </div>
 
@@ -158,7 +171,7 @@ function Testimonials() {
                 </p>
                 <div className="flex items-center gap-3 mt-6 pt-6 border-t border-[#f9c06a]/40">
                   <img
-                    src={imgAvatar}
+                    src={t.img}
                     alt={t.name}
                     className="w-12 h-12 rounded-2xl object-cover shadow-[0px_6px_12px_0px_rgba(249,192,106,0.3)]"
                   />

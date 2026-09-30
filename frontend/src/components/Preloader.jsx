@@ -93,7 +93,7 @@ function Preloader() {
           <path d="M46 25h4a6 6 0 0 1 0 12h-5" fill="none" stroke="#f9c06a" strokeWidth="2.5" />
         </svg>
         <p data-brand className="font-script text-white text-5xl md:text-6xl flex overflow-hidden">
-          {"Bean Scene".split("").map((c, i) => (
+          {"Coffee Bean".split("").map((c, i) => (
             <span key={i} className="inline-block" style={{ whiteSpace: "pre" }}>
               {c}
             </span>

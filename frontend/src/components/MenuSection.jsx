@@ -6,7 +6,7 @@ import { gsap, useGSAP, reducedMotion } from "../lib/gsap"
 
 function MenuSection() {
   const featured = menuItems.filter((item) =>
-    ["Cappuccino", "Chai Latte", "Macchiato", "Expresso"].includes(item.name)
+    ["Cappuccino", "Chai Tea Latte", "Caramel Macchiato", "Espresso"].includes(item.name)
   )
   const root = useRef(null)
 
@@ -39,11 +39,11 @@ function MenuSection() {
       />
       <div className="text-center max-w-2xl mx-auto mb-14 relative z-10">
         <h2 className="text-[#603809] text-3xl md:text-5xl font-bold mb-4">
-          Enjoy a new blend of coffee style
+          Enjoy our signature favourites
         </h2>
         <p className="text-[#707070] text-base md:text-lg leading-loose">
-          Explore all flavours of coffee with us. There is always a new cup
-          worth experiencing
+          From freshly pulled espresso to our famous Ice Blended® drinks, there
+          is always a new cup worth experiencing
         </p>
       </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">

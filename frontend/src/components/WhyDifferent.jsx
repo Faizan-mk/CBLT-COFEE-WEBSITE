@@ -9,10 +9,10 @@ import Button from "./Button"
 import { useTilt } from "../lib/usePointerFx"
 
 const features = [
-  { title: "Supreme Beans", desc: "Beans that provides great taste", icon: imgCoffeeBeansIcon, filled: true },
-  { title: "High Quality", desc: "We provide the highest quality", icon: imgBadgeIcon },
-  { title: "Extraordinary", desc: "Coffee like you have never tasted", icon: imgCoffeeCupIcon },
-  { title: "Affordable Price", desc: "Our Coffee prices are easy to afford", icon: imgBestPriceIcon },
+  { title: "Top 1% Arabica", desc: "Only the finest beans from the best growing regions", icon: imgCoffeeBeansIcon, filled: true },
+  { title: "Small-Batch Roasting", desc: "Roasted to perfection in Camarillo, California", icon: imgBadgeIcon },
+  { title: "Hand-Blended Tea", desc: "Whole-leaf teas from family-owned estates", icon: imgCoffeeCupIcon },
+  { title: "No Middleman", desc: "We buy directly from the growers", icon: imgBestPriceIcon },
 ]
 
 function FeatureCard({ title, desc, icon, filled }) {
@@ -51,7 +51,7 @@ function WhyDifferent() {
           Why are we different?
         </h2>
         <p className="text-[#707070] text-base md:text-lg leading-loose">
-          We don't just make your coffee, we make your day!
+          Quality has always been our No. 1 priority
         </p>
       </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-14">
@@ -61,12 +61,12 @@ function WhyDifferent() {
       </div>
       <div className="text-center" data-reveal="up">
         <p className="text-[#707070] text-lg mb-1">
-          Great ideas start with great coffee, Lets help you achieve that
+          Born in California, ready for Pakistan
         </p>
         <p className="text-[#603809] text-2xl font-bold mb-6">
-          Get started today.
+          Visit a store near you.
         </p>
-        <Button to="/signup">Join Us</Button>
+        <Button to="/contact">Find a Store</Button>
       </div>
     </section>
   )

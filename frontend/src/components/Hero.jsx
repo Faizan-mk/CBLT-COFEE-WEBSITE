@@ -197,7 +197,7 @@ function Hero() {
       >
         <div className="max-w-xl">
           <p data-lead className="text-white text-xl md:text-2xl font-medium mb-2">
-            We've got your morning covered with
+            Simply the best
           </p>
           <h1
             data-title
@@ -207,12 +207,11 @@ function Hero() {
             Coffee
           </h1>
           <p data-copy className="text-white/85 text-base md:text-lg leading-relaxed mb-8 max-w-md">
-            It is best to start your day with a cup of coffee. Discover the best
-            flavours coffee you will ever have. We provide the best for our
-            customers.
+            Born and brewed in Southern California, we take pride in serving
+            our freshest and richest blends of tea and coffee since 1963.
           </p>
           <div data-cta>
-            <Button to="/order">Order Now</Button>
+            <Button to="/menu">Explore Menu</Button>
           </div>
         </div>
       </div>

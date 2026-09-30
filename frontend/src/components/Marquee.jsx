@@ -1,7 +1,7 @@
 import { useRef } from "react"
 import { gsap, ScrollTrigger, useGSAP, reducedMotion } from "../lib/gsap"
 
-const words = ["Cappuccino", "Espresso", "Macchiato", "Chai Latte", "Cold Brew", "Mocha", "Flat White"]
+const words = ["Cappuccino", "Espresso", "Caramel Macchiato", "Chai Tea Latte", "Ice Blended", "Mocha Latte", "Café Latte"]
 
 // Endless ticker whose direction follows the scroll and whose speed spikes with scroll velocity.
 function Marquee() {

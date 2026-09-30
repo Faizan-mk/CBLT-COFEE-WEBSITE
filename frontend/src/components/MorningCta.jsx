@@ -40,13 +40,13 @@ function MorningCta() {
       <div className="relative max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
         <div data-reveal="left">
           <h2 className="text-white text-3xl md:text-5xl font-bold mb-6 leading-tight">
-            Get a chance to have an Amazing morning
+            Home of the original Ice Blended® drink
           </h2>
           <p className="text-white/85 text-base md:text-lg leading-loose mb-8">
-            We are giving you are one time opportunity to experience a better
-            life with coffee.
+            History was made in 1987 when a barista invented the Ice Blended®
+            drink at our Westwood, California store.
           </p>
-          <Button to="/order">Order Now</Button>
+          <Button to="/menu">Explore Menu</Button>
         </div>
         <div
           data-reveal="scale"

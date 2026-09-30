@@ -57,7 +57,7 @@ function SignUp() {
       subtitle={
         confirmation
           ? "We've sent you a confirmation link to verify your email."
-          : "Join Bean Scene and taste the difference"
+          : "Join The Coffee Bean & Tea Leaf family"
       }
       footerText="Already have an account?"
       footerLink="/signin"

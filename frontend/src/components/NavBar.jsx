@@ -5,6 +5,7 @@ import { useAuth } from "../context/auth"
 import { gsap, ScrollTrigger, useGSAP, reducedMotion } from "../lib/gsap"
 import { introDone } from "../lib/intro"
 import { pauseScroll, resumeScroll } from "../lib/smoothScroll"
+import { contact } from "../data/contact"
 
 // Label rolls up and a fresh copy rolls in from below on hover.
 function RollLabel({ children }) {
@@ -23,18 +24,21 @@ function RollLabel({ children }) {
   )
 }
 
-function SteamingCup({ className }) {
+// The Coffee Bean & Tea Leaf roundel, used as a mask so it takes the nav's text colour.
+function BrandMark({ className }) {
   return (
-    <svg viewBox="0 0 40 40" className={className} aria-hidden="true">
-      <g data-logo-steam stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" fill="none" opacity="0.8">
-        <path d="M14 11c-2-3 2-4 0-7" />
-        <path d="M20 11c-2-3 2-4 0-7" />
-        <path d="M26 11c-2-3 2-4 0-7" />
-      </g>
-      <path d="M8 15h24v8a12 12 0 0 1-24 0z" fill="#f9c06a" />
-      <path d="M32 18h2.5a4 4 0 0 1 0 8H31" fill="none" stroke="#f9c06a" strokeWidth="2.4" />
-      <path d="M6 36h28" stroke="#f9c06a" strokeWidth="2.4" strokeLinecap="round" />
-    </svg>
+    <span
+      aria-hidden="true"
+      className={`block bg-current ${className}`}
+      style={{
+        maskImage: "url(/images/cbtl/site/logo-mark.png)",
+        WebkitMaskImage: "url(/images/cbtl/site/logo-mark.png)",
+        maskSize: "contain",
+        WebkitMaskSize: "contain",
+        maskRepeat: "no-repeat",
+        WebkitMaskRepeat: "no-repeat",
+      }}
+    />
   )
 }
 
@@ -53,11 +57,13 @@ const capitalize = (s) =>
 const links = [
   { label: "Home", to: "/" },
   { label: "Menu", to: "/menu" },
+  { label: "Coffee", to: "/coffee" },
+  { label: "Tea", to: "/tea" },
   { label: "About Us", to: "/about" },
   { label: "Contact Us", to: "/contact" },
 ]
 
-const brand = "Bean Scene"
+const brand = "Coffee Bean"
 
 function NavBar() {
   const [open, setOpen] = useState(false)
@@ -93,12 +99,6 @@ function NavBar() {
         gsap.to(items, { y: 0, opacity: 1, duration: 1.2, stagger: 0.08, ease: "expo.out", delay: 0.3 })
         gsap.to(letters, { yPercent: 0, rotateX: 0, opacity: 1, duration: 1, stagger: 0.04, ease: "back.out(2)", delay: 0.5 })
       })
-
-      gsap.fromTo(
-        "[data-logo-steam] path",
-        { y: 3, opacity: 0 },
-        { y: -3, opacity: 0.9, duration: 1.4, stagger: { each: 0.35, repeat: -1, yoyo: true }, ease: "sine.inOut" }
-      )
 
       // Slide away while reading down, return the moment the visitor scrolls up.
       const shown = gsap.quickTo(nav.current, "yPercent", { duration: 0.5, ease: "power3" })
@@ -236,7 +236,7 @@ function NavBar() {
             className={`flex items-center gap-2 ${light ? "text-white" : "text-[#603809]"}`}
           >
             <span data-logo-cup className="inline-block">
-              <SteamingCup className="w-7 h-7 sm:w-8 sm:h-8" />
+              <BrandMark className="w-9 h-9 sm:w-10 sm:h-10" />
             </span>
             <span aria-hidden="true" className="font-script text-2xl sm:text-3xl md:text-4xl flex">
               {brand.split("").map((c, i) => (
@@ -420,8 +420,8 @@ function NavBar() {
               )}
             </div>
             <p data-mfoot className="flex flex-wrap gap-x-4 gap-y-1 text-xs tracking-[0.2em] text-white/40">
-              <span>beanscene@mail.com</span>
-              <span>+1 202-918-2132</span>
+              <span>{contact.email}</span>
+              <span>{contact.phone}</span>
             </p>
           </div>
         </div>

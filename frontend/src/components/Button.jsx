@@ -7,6 +7,7 @@ function Button({
   variant = "solid",
   className = "",
   to,
+  href,
   type = "submit",
   disabled,
   onClick,
@@ -32,6 +33,13 @@ function Button({
       <span className="relative transition-colors duration-300 group-hover:text-white">{children}</span>
     </>
   )
+  // Plain links (mailto:, external sites) that the router should not handle.
+  if (href)
+    return (
+      <a ref={ref} href={href} onClick={onClick} className={classes}>
+        {content}
+      </a>
+    )
   if (to)
     return (
       <Link ref={ref} to={to} state={navigateState} onClick={onClick} className={classes}>

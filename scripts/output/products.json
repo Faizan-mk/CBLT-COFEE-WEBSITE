@@ -1,0 +1,875 @@
+[
+  {
+    "id": 14331,
+    "name": "Lotus cheesecake",
+    "slug": "lotus-cheesecake",
+    "category": "Cake",
+    "categories": [
+      "Cake",
+      "Signature classics"
+    ],
+    "short_description": "",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/lotus-cheesecake/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2019/09/DSC0970.jpg"
+  },
+  {
+    "id": 14295,
+    "name": "Belgian Chocolate Cake",
+    "slug": "belgian-chocolate-cake",
+    "category": "Cake",
+    "categories": [
+      "Cake",
+      "Signature classics"
+    ],
+    "short_description": "",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/belgian-chocolate-cake/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2018/10/Belgian-scaled.jpg"
+  },
+  {
+    "id": 14161,
+    "name": "Sook Pu-Erh Cha",
+    "slug": "sook-pu-erh-cha",
+    "category": "Tea",
+    "categories": [
+      "Tea",
+      "Tea Master's Collection"
+    ],
+    "short_description": "Woodsy and subtly sweet, with hints of cocoa and a pleasing pungency, it brews to a vibrant red liquor and releases and earthy aroma of honeyed woods. Box of 20 tea bags.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/sook-pu-erh-cha/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Sook-Pu-Erh-Cha.jpg"
+  },
+  {
+    "id": 14158,
+    "name": "Sencha Green",
+    "slug": "sencha-green",
+    "category": "Tea",
+    "categories": [
+      "Tea",
+      "Tea Master's Collection"
+    ],
+    "short_description": "A grassy and slightly sweet green tea with a refreshing, mild astrigency and a crisp floral aroma. Box of 20 tea bags.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/sencha-green/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Sencha-Green.jpg"
+  },
+  {
+    "id": 14155,
+    "name": "Tung Ting Oolong",
+    "slug": "tung-ting-oolong",
+    "category": "Tea",
+    "categories": [
+      "Oolong",
+      "Tea"
+    ],
+    "short_description": "Medium-bodied oolong tea carefully cultivated from the mountains of Taiwan with a peach, floral fragrance.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/tung-ting-oolong/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Tung-Ting-Oolong.jpg"
+  },
+  {
+    "id": 14154,
+    "name": "Osmanthus Oolong",
+    "slug": "osmanthus-oolong",
+    "category": "Tea",
+    "categories": [
+      "Oolong",
+      "Tea"
+    ],
+    "short_description": "Delicately scented with fresh Osmanthus flowers and hand plucked tea leaves from the Nantou Country Mountains of Taiwan.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/osmanthus-oolong/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Osmanthus-Oolong.jpg"
+  },
+  {
+    "id": 14153,
+    "name": "Dong Ding Oolong Tea",
+    "slug": "dong-ding-oolong-tea",
+    "category": "Tea",
+    "categories": [
+      "Oolong",
+      "Tea"
+    ],
+    "short_description": "Find yourself wrapped in the comforts of our Dong Ding Oolong tea that has a sweet grassy aroma, a full body with a delicate roasted flavour. Box of 20 tea bags.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/dong-ding-oolong-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Dong-Ding-Oolong-Tea.jpg"
+  },
+  {
+    "id": 14150,
+    "name": "Organic Green Gunpowder",
+    "slug": "organic-green-gunpowder",
+    "category": "Tea",
+    "categories": [
+      "Limited Edition Teas",
+      "Tea"
+    ],
+    "short_description": "A sweet and lightly grassy organic green tea grown in the highland mountains of Sri Lanka.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/organic-green-gunpowder/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Organic-Green-Gunpowder-1.jpg"
+  },
+  {
+    "id": 14149,
+    "name": "Gold Tip Assam",
+    "slug": "gold-tip-assam",
+    "category": "Tea",
+    "categories": [
+      "Limited Edition Teas",
+      "Tea"
+    ],
+    "short_description": "A malty taste with a slight hint of peach and honey.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/gold-tip-assam/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Gold-Tip-Assam.jpg"
+  },
+  {
+    "id": 14145,
+    "name": "20th Anniversary Tea",
+    "slug": "20th-anniversary-tea",
+    "category": "Tea",
+    "categories": [
+      "Limited Edition Teas",
+      "Tea"
+    ],
+    "short_description": "This unique blend combines hand plucked whole leaf tea from Assam India with red rose petals and lemon balm.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/20th-anniversary-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/20th-Anniversary-Tea.jpg"
+  },
+  {
+    "id": 14144,
+    "name": "Pouchong Oolong",
+    "slug": "pouchong-oolong",
+    "category": "Tea",
+    "categories": [
+      "Limited Edition Teas",
+      "Tea"
+    ],
+    "short_description": "A very special oolong direct from China’s Lancang County Star Walled Mountains.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/pouchong-oolong/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Pouchong-Oolong.jpg"
+  },
+  {
+    "id": 14143,
+    "name": "Jungsun Korean",
+    "slug": "jungsun-korean",
+    "category": "Tea",
+    "categories": [
+      "Limited Edition Teas",
+      "Tea"
+    ],
+    "short_description": "Established in 1965 and located in the province of Jeolla-Namdo, this Jungsun Korean green tea is made up of a special blend of 2nd and 3rd flush leaves.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/jungsun-korean/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Jungsun-Korean.jpg"
+  },
+  {
+    "id": 14141,
+    "name": "Swedish Berries",
+    "slug": "swedish-berries",
+    "category": "Tea",
+    "categories": [
+      "Herbal & Fruits",
+      "Tea"
+    ],
+    "short_description": "A blend of hibiscus, raisins and mixed berries creates a juicy, tart, berry flavour and sweet, fragrant aroma.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/swedish-berries/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Swedish-Berries.jpg"
+  },
+  {
+    "id": 14139,
+    "name": "Lemon Chamomile Tea",
+    "slug": "lemon-chamomile-tea",
+    "category": "Tea",
+    "categories": [
+      "Herbal & Fruits",
+      "Tea"
+    ],
+    "short_description": "Delectable and satisfying, this infusion of Lemon Chamomile brings to you a fresh and crisp aroma, a light body and a flavour that's well-balanced with bright lemon. Box of 20 tea bags.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/lemon-chamomile-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Lemon-Chamomile-Tea.jpg"
+  },
+  {
+    "id": 14137,
+    "name": "Green Rooibos",
+    "slug": "green-rooibos",
+    "category": "Tea",
+    "categories": [
+      "Herbal & Fruits",
+      "Tea"
+    ],
+    "short_description": "A grassy sweet herbal infusion made with South African green rooibos.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/green-rooibos/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Green-Rooibos.jpg"
+  },
+  {
+    "id": 14135,
+    "name": "Ginseng Peppermint Tea",
+    "slug": "ginseng-peppermint-tea",
+    "category": "Tea",
+    "categories": [
+      "Herbal & Fruits",
+      "Tea"
+    ],
+    "short_description": "The special herbal infusions are 100% caffeine free and our Ginseng Peppermint is a tea with minty and peppermint aromas, a light body and filled with peppermint and ginseng note flavours. Box of 20 tea bags.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/ginseng-peppermint-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Ginseng-Peppermint-Tea.jpg"
+  },
+  {
+    "id": 14133,
+    "name": "African Sunrise",
+    "slug": "african-sunrise",
+    "category": "Tea",
+    "categories": [
+      "Herbal & Fruits",
+      "Tea"
+    ],
+    "short_description": "Naturally caffeine free, this full-bodied blend of African honey bush and orange peel has a sweet vanilla flavour with a hint of citrus.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/african-sunrise/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/African-Sunrise.jpg"
+  },
+  {
+    "id": 14131,
+    "name": "Lung Ching Dragonwell Tea",
+    "slug": "lung-ching-dragonwell-tea",
+    "category": "Tea",
+    "categories": [
+      "Green",
+      "Tea"
+    ],
+    "short_description": "A delightful tea hailing from China, it has a mild aroma, smooth body, and a delicate flavour. This green tea is revered by the Chinese for its jade green colour and unique shape. Box of 20 bags.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/lung-ching-dragonwell-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Lung-Ching-Dragonwell-Tea.jpg"
+  },
+  {
+    "id": 14129,
+    "name": "Jasmine Dragon Phoenix Pearl Tea",
+    "slug": "jasmine-dragon-phoenix-pearl-tea",
+    "category": "Tea",
+    "categories": [
+      "Green",
+      "Tea"
+    ],
+    "short_description": "For a relaxing cup of calm, enjoy a cup of full-bodied Jasmine Dragon Phoenix Pearl Tea that has a fragrant Jasmine aroma and a delicate green tea flavour.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/jasmine-dragon-phoenix-pearl-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Jasmine-Dragon-Phoenix-Pearl-Tea.jpg"
+  },
+  {
+    "id": 14127,
+    "name": "Houjicha Tea",
+    "slug": "houjicha-tea",
+    "category": "Tea",
+    "categories": [
+      "Green",
+      "Tea"
+    ],
+    "short_description": "The Houjicha tea is delightful and calming with a lightly sweet and woodsy flavour, with hints of grass and roasted leaves, and a medium body.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/houjicha-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Houjicha-Tea.jpg"
+  },
+  {
+    "id": 14125,
+    "name": "Genmaicha Green Tea",
+    "slug": "genmaicha-green-tea",
+    "category": "Tea",
+    "categories": [
+      "Green",
+      "Tea"
+    ],
+    "short_description": "This green tea which originated from Japan, has a toasty aroma with a light body. As you sip and enjoy this cup of tea, you'll find it toasty and full-flavored with a sweet finish.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/genmaicha-green-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Genmaicha-Green-Tea.jpg"
+  },
+  {
+    "id": 14123,
+    "name": "Vanilla Ceylon",
+    "slug": "vanilla-ceylon",
+    "category": "Tea",
+    "categories": [
+      "Flavoured Tea",
+      "Tea"
+    ],
+    "short_description": "There’s nothing plain vanilla about our Vanilla Ceylon infusion. This is a rich brew, built on a base of Bogawantalawa Estate Ceylon black tea, to which we've added sweet, buttery, vanilla flavouring. Enjoy this full-bodied tea as a tea latte, with milk or over ice.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/vanilla-ceylon/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Vanilla-Ceylon.jpg"
+  },
+  {
+    "id": 14121,
+    "name": "Earl Grey Tea",
+    "slug": "earl-grey-tea",
+    "category": "Tea",
+    "categories": [
+      "Flavoured Tea",
+      "Tea"
+    ],
+    "short_description": "One of the most popular teas of the world, our Earl Grey recipe with teas from Sri Lanka, brings to you a fragrant and citrusy aroma, full-bodied, and a rich and citrus flavour. Box of 20 tea bags.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/earl-grey-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Earl-Grey-Tea.jpg"
+  },
+  {
+    "id": 14119,
+    "name": "Apple Chai",
+    "slug": "apple-chai",
+    "category": "Other",
+    "categories": [],
+    "short_description": "An exclusive blend of exotic herbs, spices and pure Ceylon tea mixed with diced apples.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/apple-chai/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Apple-Chai.jpg"
+  },
+  {
+    "id": 13902,
+    "name": "LA Cheesecake",
+    "slug": "la-cheesecake",
+    "category": "Cake",
+    "categories": [
+      "Cake",
+      "Signature classics"
+    ],
+    "short_description": "Creamy Chicago Cheesecake with natural tartness and a hint of lemon. 1.5 kg. *Price inclusive of 6% GST.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/la-cheesecake/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/la-cheese-cake1.jpg"
+  },
+  {
+    "id": 13870,
+    "name": "Noori Tea Garden",
+    "slug": "noori-tea-garden",
+    "category": "Tea",
+    "categories": [
+      "Black",
+      "Tea"
+    ],
+    "short_description": "This premium pekoe extra special grade of tea is smooth and delicate with a light, astringent finish.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/noori-tea-garden/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Noori-Tea-Garden-2.jpg"
+  },
+  {
+    "id": 13862,
+    "name": "Estate Darjeeling Tea",
+    "slug": "estate-darjeeling-tea",
+    "category": "Tea",
+    "categories": [
+      "Black",
+      "Tea"
+    ],
+    "short_description": "Grown on the misty heights of the Himalayan foothills, our Darjeeling Tea is one of the world’s finest, yielding a fragrant aroma, lively flavour and full body. Box of 20 tea bags.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/estate-darjeeling-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Estate-Darjeeling-Tea.jpg"
+  },
+  {
+    "id": 13860,
+    "name": "English Breakfast Tea",
+    "slug": "english-breakfast-tea",
+    "category": "Tea",
+    "categories": [
+      "Black",
+      "Tea"
+    ],
+    "short_description": "Our original English breakfast tea yields a balanced cup with a medium body, sweet and smoky aroma, with a fruity flavour. Box og 20 tea bags.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/english-breakfast-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/English-Breakfast-Tea.jpg"
+  },
+  {
+    "id": 13858,
+    "name": "Chai Tea",
+    "slug": "chai-tea",
+    "category": "Tea",
+    "categories": [
+      "Black",
+      "Tea"
+    ],
+    "short_description": "Take in the exotic aroma and spice flavours in this tea from India. Enjoy this full-bodied tea and its flavourful blend of cardamom, clove, and cinnamon. Box of 20 tea bags.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/chai-tea/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Chai-Tea.jpg"
+  },
+  {
+    "id": 13856,
+    "name": "Black Dragon Pearl",
+    "slug": "black-dragon-pearl",
+    "category": "Tea",
+    "categories": [
+      "Black",
+      "Tea"
+    ],
+    "short_description": "Hand-picked in early spring, young tea buds and one leaf are specially hand rolled to produce a large pearl. The result is a delicate flavour with a hint of chocolate and smooth, creamy finish.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/black-dragon-pearl/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Black-Dragon-Pearl.jpg"
+  },
+  {
+    "id": 13854,
+    "name": "Colombia Antioquia (8oz)",
+    "slug": "colombia-antioquia-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Rich & Smooth"
+    ],
+    "short_description": "Plum aroma with hints of mandarin & milk chocolate. A smooth walnut finish.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/colombia-antioquia-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Colombia-Antioquia-8oz.jpg"
+  },
+  {
+    "id": 13852,
+    "name": "100% Kona Coffee (8oz)",
+    "slug": "100-kona-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Reserved"
+    ],
+    "short_description": "Our authentic Kona coffee is smooth-bodied with a nutty aroma and sweet finish. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/100-kona-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/100-Kona-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13850,
+    "name": "Papua New Guinea Sigri Coffee (8oz)",
+    "slug": "papua-new-guinea-sigri-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Medium & Smooth"
+    ],
+    "short_description": "A coffee prized by connoisseurs, our Papua New Guinea Sigri is naturally sweet, with a fruity aroma, a spicy body, and clean flavour.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/papua-new-guinea-sigri-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Papua-New-Guinea-Sigri-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13848,
+    "name": "Mocha Java Coffee (8oz)",
+    "slug": "mocha-java-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Medium & Smooth"
+    ],
+    "short_description": "A custom blend of Ethiopian Yirgacheffe and Java Estate coffees, prepare yourself for a floral aroma and full-body with bright flavour and hint of citrus. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/mocha-java-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Mocha-Java-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13846,
+    "name": "Kenya AA Coffee (8oz)",
+    "slug": "kenya-aa-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Medium & Smooth"
+    ],
+    "short_description": "Grown at the most optimal elevations on the slopes of Mt. Kenya, our exquisite Kenya coffee is unsurpassed in quality. For a tangy aroma with hearty body, gutsy, wine-like acidity and citrus flavour, this is the coffee for you. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/kenya-aa-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Kenya-AA-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13844,
+    "name": "Costa Rica La Cascada Tarrazu Coffee (8oz)",
+    "slug": "costa-rica-la-cascada-tarrazu-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Medium & Smooth"
+    ],
+    "short_description": "Exclusively available at The Coffee Bean & Tea Leaf®, this unique coffee has a medium-body with a fragrant aroma and bright crisp flavour. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/costa-rica-la-cascada-tarrazu-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Costa-Rica-La-Cascada-Tarrazu-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13842,
+    "name": "Colombia Narino Coffee (8oz)",
+    "slug": "colombia-narino-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Medium & Smooth"
+    ],
+    "short_description": "Hand Picked by workers at privately owned farms who take great pride in their production, preparation and grading of each coffee, this helps produce coffee of full, creamy body, with well-balanced flavor and full, rich aroma. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/colombia-narino-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Colombia-Narino-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13840,
+    "name": "Honduras",
+    "slug": "honduras",
+    "category": "Coffee",
+    "categories": [
+      "Coffee"
+    ],
+    "short_description": "Fresh toast aroma with brown sugar notes and a caramel finish.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/honduras/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Honduras.jpg"
+  },
+  {
+    "id": 13838,
+    "name": "Costa Rica Honey",
+    "slug": "%ef%81%b6costa-rica-honey",
+    "category": "Coffee",
+    "categories": [
+      "Coffee"
+    ],
+    "short_description": "Deep floral aroma, honey body, and crisp finish.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/%ef%81%b6costa-rica-honey/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Costa-Rica-Honey.jpg"
+  },
+  {
+    "id": 13836,
+    "name": "Brazil Pulped Natural",
+    "slug": "brazil-pulped-natural",
+    "category": "Coffee",
+    "categories": [
+      "Coffee"
+    ],
+    "short_description": "Soft fruit aroma with walnut notes and a plum finish",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/brazil-pulped-natural/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Brazil-Pulped-Natural.jpg"
+  },
+  {
+    "id": 13834,
+    "name": "Rwanda",
+    "slug": "rwanda",
+    "category": "Coffee",
+    "categories": [
+      "Coffee"
+    ],
+    "short_description": "Violet aroma with apricot flavour and chocolate finish.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/rwanda/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Rwanda.jpg"
+  },
+  {
+    "id": 13832,
+    "name": "House Blend Coffee (8oz)",
+    "slug": "house-blend-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Light & Subtle"
+    ],
+    "short_description": "A combination of our customers’ favourites, it has brightness and softness for a flavour and aroma that everyone can enjoy. Its light bodied with a subtle fruity aroma and buttery finish. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/house-blend-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/House-Blend-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13830,
+    "name": "Brazil Cerrado Coffee (8oz)",
+    "slug": "brazil-cerrado-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Light & Subtle"
+    ],
+    "short_description": "Labelled “Specialty Grade”, Brazil Cerrado is dry processed for a cup of coffee that displays terrific body and a nutty, sweet taste that can only be found in the best Brazilian coffees. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/brazil-cerrado-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Brazil-Cerrado-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13828,
+    "name": "Ethiopia Yirgacheffe Coffee (8oz)",
+    "slug": "ethiopia-yirgacheffe-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Light & Distinctive"
+    ],
+    "short_description": "Grown on a farm near the town of Yirgacheffe, Sidamo and not far from the Kenya and Somalia borders, it has a floral aroma, smooth-bodied and sweet bright flavour with pronounced lemon notes. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/ethiopia-yirgacheffe-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Ethiopia-Yirgacheffe-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13826,
+    "name": "Hazelnut Coffee (12oz)",
+    "slug": "hazelnut-coffee-12oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Flavoured Coffee"
+    ],
+    "short_description": "",
+    "description": "Our Hazelnut Coffee is an earthy, full-bodied blend that lets the intense aroma shine through. *In-store pickup, subject to store availability *Delivery available",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/hazelnut-coffee-12oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Hazelnut-Coffee-12oz.jpg"
+  },
+  {
+    "id": 13824,
+    "name": "French Vanilla Coffee (12oz)",
+    "slug": "french-vanilla-coffee-12oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Flavoured Coffee"
+    ],
+    "short_description": "",
+    "description": "Our French Vanilla coffee hints at the French style of making custard with vanilla, cream, sugar, and egg yolks. The result is a smooth-bodied coffee with a sweet aroma and a buttery vanilla flavor. *In-store pickup, subject to store availability *Delivery available",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/french-vanilla-coffee-12oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/French-Vanilla-Coffee-12oz.jpg"
+  },
+  {
+    "id": 13822,
+    "name": "Decaf House Blend Coffee (8oz)",
+    "slug": "decaf-house-blend-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Decaffeinated"
+    ],
+    "short_description": "A combination of our customers’ favourites , it has brightness and softness for a flavour and aroma that everyone can enjoy. It’s light bodied with a subtle fruity aroma and buttery finish. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/decaf-house-blend-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Decaf-House-Blend-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13820,
+    "name": "Decaf Espresso Roast Coffee (8oz)",
+    "slug": "decaf-espresso-roast-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Decaffeinated"
+    ],
+    "short_description": "Our Espresso Roast Blend is expressive and subtle enough to be enjoyed as a straight shot, yet assertive enough for the perfect latte. It has a velvety body, caramel-like aroma with an earthy flavour and bittersweet finish. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/decaf-espresso-roast-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Decaf-Espresso-Roast-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13818,
+    "name": "Viennese Coffee (8oz)",
+    "slug": "viennese-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Dark & Distinctive"
+    ],
+    "short_description": "Mellow, smooth, and delicately nuanced with hints of chocolate, our Viennese Blend draws on a unique style of coffee roasting in Vienna that dates back to 1683 when Vienna’s first coffee house opened. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/viennese-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Viennese-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13816,
+    "name": "Sumatra Mandheling Dark Coffee (8oz)",
+    "slug": "sumatra-mandheling-dark-coffee-8oz",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Dark & Distinctive"
+    ],
+    "short_description": "Roasted to perfection, our distinctive Sumatra Mandheling Dark has a smooth body with a smoky aroma and sweet earthy flavour. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/sumatra-mandheling-dark-coffee-8oz/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Sumatra-Mandheling-Dark-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13815,
+    "name": "Sulawesi Toraja",
+    "slug": "sulawesi-toraja",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Dark & Distinctive"
+    ],
+    "short_description": "Deep floral aroma with hints of caramel and nutmeg and a bittersweet finish",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/sulawesi-toraja/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Sulawesi-Toraja.jpg"
+  },
+  {
+    "id": 13809,
+    "name": "Espresso Roast Coffee (8oz)",
+    "slug": "espresso-roast-coffee",
+    "category": "Coffee",
+    "categories": [
+      "Coffee",
+      "Dark & Distinctive"
+    ],
+    "short_description": "Our Espresso Roast Blend is expressive and subtle enough to be enjoyed as a straight shot, yet assertive enough for the perfect latte. It has a velvety body, caramel-like aroma with an earthy flavor and bittersweet finish. *In-store pickup, subject to store availability *Delivery available",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/espresso-roast-coffee/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/Espresso-Roast-Coffee-8oz.jpg"
+  },
+  {
+    "id": 13798,
+    "name": "Red Velvet Cake",
+    "slug": "red-velvet-cake",
+    "category": "Cake",
+    "categories": [
+      "Cake",
+      "Signature classics"
+    ],
+    "short_description": "Moist and subtle cocoa-flavoured red velvet cake layered with luxurious white chocolate cream cheese frosting. 1.6kg.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/red-velvet-cake/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/DSC0999.jpg"
+  },
+  {
+    "id": 13796,
+    "name": "Homestyle Carrot Cake",
+    "slug": "homestyle-carrot-cake",
+    "category": "Cake",
+    "categories": [
+      "Cake",
+      "Signature classics"
+    ],
+    "short_description": "Loaded with carrots, plump raisins, pineapple & walnuts topped with cream cheese frosting. 2kg.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/homestyle-carrot-cake/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/homestyle-carrot-cake.jpg"
+  },
+  {
+    "id": 13793,
+    "name": "Oreo Tiramisu",
+    "slug": "oreo-tiramisu",
+    "category": "Cake",
+    "categories": [
+      "Cake",
+      "Signature classics"
+    ],
+    "short_description": "Pamper your taste buds with this delectable treat of mascarpone cheese, double cream, chocolate ganache and fudgy sponge cake layers topped with a generous sprinkle of cookies & cream. 1.3 kg.",
+    "description": "",
+    "price": null,
+    "currency": "PKR",
+    "url": "https://www.coffeebean.pk/product/oreo-tiramisu/",
+    "image": "https://www.coffeebean.pk/wp-content/uploads/2017/10/oreo-scaled.jpg"
+  }
+]

@@ -18,8 +18,8 @@ function NotFound() {
           404
         </h1>
         <p className="text-white/85 text-lg mb-8 max-w-md mx-auto">
-          The page you're looking for has left the building. Grab a coffee and
-          head back home instead.
+          The page you're looking for isn't here. Grab a coffee and head back
+          home instead.
         </p>
         <Button to="/">Back to Home</Button>
       </div>
